@@ -12,6 +12,11 @@ public class EjemploTres {
         // crear un arreglo de objetos de tipo Calificacion
         Calificacion [] calificaciones = {new Calificacion(10, "Computación"), 
             new Calificacion(9, "Electrónica")};
+        /*
+        Esta creando un arreglo de tipo Calificacion, en el cual procede a 
+        asignar valores dentro del mismo, a la vez que crea objetos anonimos del
+        mismo tipo
+        */
         
         for (int i = 0; i < calificaciones.length; i++) {
             Calificacion objetoCalificacion = calificaciones[i];
