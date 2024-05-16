@@ -17,6 +17,15 @@ public class Ejecutor {
         Profesor profesor2 = new Profesor("Gregory Walsh", "nombramiento");
         Profesor profesor3 = new Profesor("Kevin Page", "nombramiento");
         
+        /*
+        Se llama a los metodos establecerProfesor, debido a que el condtructor
+        de la clase calificacion nos asigna un objeto de tipo Profesor por
+        defecto siempre, entonces para cambiar su valor por defecto, se le asigna
+        los creados en el main
+        */
+        c1.establecerProfesor(profesor1);
+        c2.establecerProfesor(profesor2);
+        c3.establecerProfesor(profesor3);
                 
         Calificacion [] lista = {c1, c2, c3}; 
         
