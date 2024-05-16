@@ -18,11 +18,15 @@ public class Ejecutor {
         Profesor profesor2 = new Profesor("Gregory Walsh", "nombramiento");
         Profesor profesor3 = new Profesor("Kevin Page", "nombramiento");
         
-        c1.establecerProfesor(profesor3);
-        c2.establecerProfesor(profesor1);
-        c3.establecerProfesor(profesor2);
-        
-        Calificacion [] lista = {c1, c2, c2};
+        c1.establecerProfesor(profesor1);
+        c2.establecerProfesor(profesor2);
+        c3.establecerProfesor(profesor3);
+        /*
+        Poner atencion a la hora de la asignacion de variables, debido a que si
+        se comete un error, aunque la impresion sea correcta, las variables
+        enviadas pueden ser erroneas
+        */
+        Calificacion [] lista = {c1, c2, c3};
         
         
         LibretaCalificacion libreta1 = new LibretaCalificacion("Justin Powers",
